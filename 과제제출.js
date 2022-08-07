@@ -8,14 +8,13 @@ function hi() {
 
     b++;
 
-    console.log(a,b);
+    // console.log(a,b);
     return a,b
 }
 
 
 
 console.log(b);
-
-hi();
+console.log(hi())
 
 console.log(b);
