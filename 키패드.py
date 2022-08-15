@@ -12,7 +12,7 @@ def solution(numbers, hand):
             answer = answer+"R"
         else:
             if (abs(numbers[i-1]-i) < abs(numbers[i+1]-i)):
-                if(abs(numbers[i-1]-i)==):
+                # if(abs(numbers[i-1]-i)==):
                     answer = answer + "L"
         # if ((numbers[i+1]-i == 2 or 5 or 8 or 0) or i - numbers[i+1] == 2 or 5 or 8 or 0):# 나머지 2 5 8 10
         #     if (hand=="right"):
