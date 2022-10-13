@@ -9,7 +9,6 @@ def solution(sizes):
         else:
             big.append(sizes[i][0])
             small.append(sizes[i][1])
-        sizes[i]
-    print(big)
-    print(small)
+    return max(big)*max(small)
+    
 solution([[60, 50], [30, 70], [60, 30], [80, 40]])

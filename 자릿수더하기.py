@@ -4,5 +4,3 @@ def solution(n):
     change_list = list(map(int,lists))
     ans = sum(change_list)
     return ans
-
-solution(123)
