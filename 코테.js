@@ -24,19 +24,3 @@ let arr1=[[5,7,1],[2,3,5]];
 let arr2=[[5,1,6],[7,5,6]];
 let signs=[[true,true,false],[false,true,false]];
 console.log(solution(arr1,arr2,signs))
-
-// function solution(checkin,checkout) {
-//     result = 0
-//     for (let i = 0; i<checkin.length; i++){
-//         if(checkout[i] >= 29){
-//             checkout[i] = 21
-//             plus = checkout[i] - checkin[i]
-//         }else{
-//             plus = checkout[i] - checkin[i]
-//         }
-//         result =  plus + result
-//     }
-//     console.log(result)
-//     return result
-// }
-// solution([9, 9, 8, 8, 7, 8, 9],[21, 25, 30, 29, 22, 23, 30])
