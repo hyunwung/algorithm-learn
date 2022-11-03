@@ -20,3 +20,28 @@ def solution(progresses, speeds):
     print(answer)
     return answer
 solution([95, 90, 99, 99, 80, 99],[1, 1, 1, 1, 1, 1])
+
+from collections import deque
+#
+# def solution(progresses, speeds):
+#     answer = []
+#     prog = deque(progresses)
+#     spd = deque(speeds)
+#
+#     while prog:
+#         for i in range(len(prog)):
+#             prog[i] += spd[i]
+#
+#         tmp = 0
+#         try:
+#             while prog[0] >= 100:
+#                 tmp += 1
+#                 prog.popleft()
+#                 spd.popleft()
+#         except:
+#             pass
+#
+#         if tmp > 0:
+#             answer.append(tmp)
+#
+#     return answer
