@@ -1,0 +1,3 @@
+const callData = () =>{
+    fetch("")
+}
