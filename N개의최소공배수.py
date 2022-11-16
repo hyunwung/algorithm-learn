@@ -17,14 +17,10 @@ def solution(arr):
         if result:  # result 판별 True이면 while True문을 빠져나옴
             break
         n += 1
-        print(n)
-
     return answer
 
+print(solution(arr))
 
-# print(solution(arr))
-
-#
 # def solution2(arr):
 #     return reduce(lambda x,y:lcm(x,y),arr)
 #
