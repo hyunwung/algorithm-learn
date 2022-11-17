@@ -14,5 +14,4 @@ def solution(s):
 
     if arr != []:
         answer = False
-
     return answer

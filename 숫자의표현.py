@@ -9,7 +9,7 @@ def solution(n):
             if sum(key) == n:
                 answer = answer + 1
                 break
-
+    print(answer)
     return answer
 
 solution(15)
