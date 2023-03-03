@@ -7,4 +7,4 @@ function solution(s) {
     }
     return true
 }
-solution("234")
+solution("23454")
